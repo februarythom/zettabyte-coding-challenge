@@ -1,0 +1,154 @@
+.page-wrapper .header-wrapper {
+  background-color: #233D8C;
+  height: 350px;
+}
+.page-wrapper .header-wrapper .header-title {
+  color: white;
+  background-color: #233d8c;
+  height: 350px;
+  padding: 60px 60px 0px;
+  letter-spacing: 0.5px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center flex-start;
+  align-items: center;
+}
+.page-wrapper .header-wrapper .header-title span {
+  margin-bottom: 16px;
+  font-size: 24px;
+}
+.page-wrapper .header-wrapper .header-title .header-small span {
+  font-size: 14px;
+  text-align: center;
+}
+.page-wrapper .card-wrapper {
+  position: relative;
+}
+.page-wrapper .card-wrapper .containers-wrapper {
+  height: 300px;
+  position: absolute;
+  width: calc(100% - 350px);
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -150px;
+  overflow: hidden;
+  background-color: transparent;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-end;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item {
+  height: 300px;
+  margin: 0 1rem 0 0;
+  flex: auto;
+  max-width: calc((100%/3) - 1rem);
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details {
+  height: 290px;
+  width: 100%;
+  border-radius: 4px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details:hover {
+  box-shadow: 0 2px 1px 3px rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .item-header {
+  padding: 8px;
+  background-color: #3d657f;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center space-between;
+  align-items: center;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .price-details {
+  padding: 24px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .price-details .price {
+  margin-bottom: 24px;
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  place-content: stretch center;
+  align-items: stretch;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .price-details .price .item-price {
+  font-size: 100px;
+  line-height: 60px;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .price-details .price .price-by-month {
+  align-self: flex-end;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .price-details .separator {
+  border: 1px solid #cecece;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .price-details .price-of {
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  margin-bottom: 24px;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .price-details .fake-button-container {
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+.page-wrapper .card-wrapper .containers-wrapper .container .item .item-details .price-details .fake-button-container .button-item {
+  border: 1px solid #1DA1F2;
+  background-color: #1DA1F2;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: #fff;
+}
+.page-wrapper .footer-wrapper {
+  height: 350px;
+  background-color: whitesmoke;
+  padding-bottom: 16px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center flex-end;
+  align-items: center;
+}
+.page-wrapper .footer-wrapper h1 {
+  color: #888;
+}
+.page-wrapper .footer-wrapper .footer-desc {
+  flex-direction: row;
+  box-sizing: border-box;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+.page-wrapper .footer-wrapper .footer-desc .footer {
+  max-width: 200px;
+  margin-right: 24px;
+  flex-direction: column;
+  box-sizing: border-box;
+  display: flex;
+}
+.page-wrapper .footer-wrapper .footer-desc .footer span {
+  color: #666;
+  margin-bottom: 8px;
+}
+.page-wrapper .footer-wrapper .footer-desc .footer small {
+  color: #888;
+}
